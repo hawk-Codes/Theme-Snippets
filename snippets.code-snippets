@@ -1,0 +1,208 @@
+{
+"Basic package.json format": {
+    "prefix": "!theme",
+    "body": [
+      "{",
+      "  \"name\": \"my-extension\",",
+      "  \"displayName\": \"My Extension\",",
+      "  \"description\": \"This is the description of my extension.\",",
+      "  \"publisher\": \"example-id\",",
+      "  \"version\": \"1.0.0\",",
+      "  \"icon\": \"icon.png\",",
+      "  \"repository\": \"https://github.com/example-id/my-extension\",",
+      "  \"keywords\": [",
+      "    \"1\",",
+      "    \"2\"",
+      "  ],",
+      "  \"engines\": {",
+      "    \"vscode\": \"*\"",
+      "  },",
+      "  \"categories\": [",
+      "    \"Themes\"",
+      "  ],",
+      "  \"contributes\": {",
+      "    \"themes\": [",
+      "      {",
+      "        \"label\": \"My Extension\",",
+      "        \"uiTheme\": \"vs-dark\",",
+      "        \"path\": \"./themes/my-extension-color-theme.json\"",
+      "      }",
+      "    ]",
+      "  }",
+      "}"
+    ],
+    "description": "Basic package.json format for making a theme"
+  }
+
+  "Name and Display Name": {
+    "prefix": "n",
+    "body": [
+      "\"name\": \"extension-name\",",
+      "\"displayName\": \"Extension Name\""
+    ],
+    "description": "Name and Display Name"
+  }
+
+  "Publisher": {
+    "prefix": "p",
+    "body": [
+      "\"publisher\": \"exampleID\"",
+    ],
+    "description": "Publisher"
+  }
+
+  "Description": {
+    "prefix": "d",
+    "body": [
+      "\"description\": \"Example description.\""
+    ],
+    "description": "Description"
+  }
+
+  "Version": {
+    "prefix": "v",
+    "body": [
+      "\"version\": \"1.0.0\""
+    ],
+    "description": "Version"
+  }
+
+  "Icon": {
+    "prefix": "i",
+    "body": [
+      "\"icon\": \"icon.png\""
+    ],
+    "description": "Icon"
+  }
+
+  "GitHub Repository": {
+    "prefix": "r",
+    "body": [
+      "\"repository\": \"https://github.com/exampleID/extension-name\""
+    ],
+    "description": "GitHub Repository"
+  }
+
+  "Keywords": {
+    "prefix": "kw",
+    "body": [
+      "\"keywords\": [",
+      "  \"1\",",
+      "  \"2\"",
+      "]"
+    ],
+    "description": "Keywords"
+  }
+
+  "VSCode Required Version": {
+    "prefix": "vscv",
+    "body": [
+      "\"engines\": {",
+      "  \"vscode\": \"*\"",
+      "}"
+    ],
+    "description": "VSCode Required Version"
+  }
+
+  "Categories": {
+    "prefix": "c",
+    "body": [
+      "\"categories\": [",
+      "  \"Themes\"",
+      "]"
+    ],
+    "description": "Categories"
+  }
+
+  "Contributes": {
+    "prefix": "cb",
+    "body": [
+      "  \"contributes\": {",
+      "    \"themes\": [",
+      "      {",
+      "        \"label\": \"My Extension\",",
+      "        \"uiTheme\": \"vs-dark\",",
+      "        \"path\": \"./themes/my-extension-color-theme.json\"",
+      "      }",
+      "    ]",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "Contributes"
+  }
+
+  "Popular Keywords": {
+    "prefix": "pkw",
+    "body": [
+      "  \"keywords\": [",
+      "    \"dark theme\",",
+      "    \"cold\",",
+      "    \"cool\",",
+      "    \"oceanic\",",
+      "    \"ocean\",",
+      "    \"dim\",",
+      "    \"iceberg\",",
+      "    \"iceberg dark\",",
+      "    \"procode\",",
+      "    \"procodeyt\",",
+      "    \"icy\",",
+      "    \"icy cold\",",
+      "    \"night\",",
+      "    \"midnight\",",
+      "    \"noir\",",
+      "    \"monochrome\",",
+      "    \"minimalism\",",
+      "    \"elegant\",",
+      "    \"sophisticated\",",
+      "    \"professional\",",
+      "    \"productive\",",
+      "    \"focus\",",
+      "    \"concentration\",",
+      "    \"relaxing\",",
+      "    \"calming\",",
+      "    \"soothing\",",
+      "    \"serene\",",
+      "    \"peaceful\",",
+      "    \"tranquility\",",
+      "    \"tranquil\",",
+      "    \"zen\",",
+      "    \"minimalist\",",
+      "    \"flat\",",
+      "    \"material\",",
+      "    \"metro\",",
+      "    \"design\",",
+      "    \"style\",",
+      "    \"aesthetics\",",
+      "    \"visual\",",
+      "    \"appearance\",",
+      "    \"theme\",",
+      "    \"color\",",
+      "    \"palette\",",
+      "    \"scheme\",",
+      "    \"visual studio code\",",
+      "    \"vs code\",",
+      "    \"vscode\",",
+      "    \"code editor\",",
+      "    \"programmer\",",
+      "    \"software developer\",",
+      "    \"developer\",",
+      "    \"coding\",",
+      "    \"programming\",",
+      "    \"technology\",",
+      "    \"computer science\",",
+      "    \"software engineering\",",
+      "    \"innovation\",",
+      "    \"creation\",",
+      "    \"problem-solving\",",
+      "    \"creativity\",",
+      "    \"art\",",
+      "    \"expression\",",
+      "    \"passion\",",
+      "    \"theme snippets\",",
+      "    \"theme dev\",",
+      "    \"themes\""
+    ],
+    "description": "Popular Keywords"
+  }
+}
